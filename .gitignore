@@ -31,10 +31,12 @@
 *.out
 *.app
 
+#Clion gitignore
+.idea
 .clang-format
-
 cmake-build-debug
 
+#Cmake gitignore
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
