@@ -3,46 +3,8 @@
 //
 
 #include <iostream>
-"x86_64-w64-mingw32/bits/c++config.h"
-"bits/istream.tcc"
-"bits/istream.tcc"
-"bits/istream.tcc"
-"x86_64-w64-mingw32/bits/c++config.h"
-"bits/stringfwd.h"
-"bits/postypes.h"
-"bits/istream.tcc"
-"x86_64-w64-mingw32/bits/c++config.h"
-"bits/exception.h"
-"bits/exception_ptr.h"
-"bits/nested_exception.h"
-"bits/char_traits.h"
-"bits/localefwd.h"
-"bits/ios_base.h"
-"bits/istream.tcc"
-"x86_64-w64-mingw32/bits/c++config.h"
-"bits/istream.tcc"
-"bits/localefwd.h"
-"bits/ios_base.h"
-"bits/cpp_type_traits.h"
-"ext/type_traits.h"
-"bits/streambuf.tcc"
-"bits/basic_ios.h"
-"bits/ostream_insert.h"
-"bits/ostream.tcc"
-"bits/istream.tcc"
-"bits/istream.tcc"
-"bits/istream.tcc"
-"bits/istream.tcc"
 #include <string>
 #include <vector>
-"bits/stl_algobase.h"
-"bits/allocator.h"
-"bits/stl_construct.h"
-"bits/stl_uninitialized.h"
-"bits/stl_vector.h"
-"bits/stl_bvector.h"
-"bits/range_access.h"
-"bits/vector.tcc"
 
 using namespace std;
 
