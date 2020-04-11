@@ -16,7 +16,7 @@ if(Boost_FOUND)
 
 endif()
 
-add_executable(BoostTest src/solid/SRP.cpp src/solid/OCP.cpp src/solid/LSP.cpp)
+add_executable(BoostTest src/solid/SRP.cpp src/solid/OCP.cpp src/solid/LSP.cpp src/solid/LSP.h src/solid/OCP.h src/solid/SRP.h src/solid/ISP.cpp src/solid/ISP.h)
 
 if(Boost_FOUND)
 

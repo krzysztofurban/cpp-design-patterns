@@ -35,7 +35,7 @@ struct PersistenceManager
 	}
 };
 
-int ignoremain()
+int ignoremain2()
 {
 	Journal journal{ "Dear Diary" };
 	journal.add_entry("I ate a bug");

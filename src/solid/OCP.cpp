@@ -27,7 +27,7 @@ struct Product
 
 struct ProductFilter
 {
-	static vector<Product*> by_color(vector<Product*> items, Color color)
+	static vector<Product*> by_color(const vector<Product*>& items, Color color)
 	{
 		vector < Product * > result;
 		for (auto& i : items)
