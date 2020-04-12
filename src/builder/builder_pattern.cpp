@@ -47,24 +47,27 @@ struct HtmlBuilder
 		root.name = root_name;
 	}
 
-	void add_child(string child_name, string child_text)
+	HtmlBuilder& add_child(string child_name, string child_text)
 	{
-		HtmlElement e {child_name, child_text};
+		HtmlElement e{ child_name, child_text };
 		root.elements.emplace_back(e);
+		return *this;
 	}
 
 	string str() const
 	{
 		return root.str();
 	}
+
+	static HtmlBuilder build(string root_name)
+	{
+		return { root_name };
+	}
 };
 
-
-int main()
+int buildermain()
 {
-	HtmlBuilder builder{"ul"};
-	builder.add_child("li", "hello");
-	builder.add_child("li", "world");
+	HtmlBuilder& builder = HtmlBuilder::build("ul").add_child("li", "hello").add_child("li", "world");
 	cout << builder.str();
 	return 0;
 }

@@ -16,7 +16,7 @@ if(Boost_FOUND)
 
 endif()
 
-add_executable(BoostTest src/solid/SRP.cpp src/solid/OCP.cpp src/solid/LSP.cpp src/solid/LSP.h src/solid/OCP.h src/solid/SRP.h src/solid/ISP.cpp src/solid/ISP.h src/solid/DI.cpp src/solid/DI.h src/builder/builder_pattern.cpp src/builder/builder_pattern.h)
+add_executable(BoostTest src/solid/SRP.cpp src/solid/OCP.cpp src/solid/LSP.cpp src/solid/LSP.h src/solid/OCP.h src/solid/SRP.h src/solid/ISP.cpp src/solid/ISP.h src/solid/DI.cpp src/solid/DI.h src/builder/builder_pattern.cpp src/builder/builder_pattern.h src/builder/groovy_builder_pattern.cpp src/builder/groovy_builder_pattern.h)
 
 if(Boost_FOUND)
 
