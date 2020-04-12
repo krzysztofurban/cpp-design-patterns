@@ -2,7 +2,7 @@
 // Created by Urban on 12.04.2020.
 //
 
-#include "groovy_builder_pattern.h"
+#include "GroovyBuilderPattern.h"
 
 #include <iostream>
 #include <cstdio>
@@ -70,7 +70,7 @@ struct IMG : Tag
 	}
 };
 
-int main()
+int d3d23dmain()
 {
 	cout << P{ IMG{ "http://some.pl/some/some" }} << endl ;
 	return 0;

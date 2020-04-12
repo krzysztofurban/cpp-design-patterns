@@ -1,0 +1,13 @@
+//
+// Created by Urban on 12.04.2020.
+//
+
+#ifndef BOOSTTEST_SRC_BUILDER_BUILDEREXERCISE_H_
+#define BOOSTTEST_SRC_BUILDER_BUILDEREXERCISE_H_
+
+class BuilderExercise
+{
+
+};
+
+#endif //BOOSTTEST_SRC_BUILDER_BUILDEREXERCISE_H_
